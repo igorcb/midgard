@@ -11,26 +11,14 @@
 /log/*
 /tmp/*
 
-
 .byebug_history
-.enter.sh
-.exit.sh
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
 # Ignorar outros arquivos e pastas
-coverage
 db/schema.rb
 public/*
-!public/robots.txt
-*.orig
-chromedriver.log
-dump.rdb
 .DS_Store
-.idea
-spec_map.json
-services/report_worker/reports/.project
-services/report_worker/reports/.settings/org.eclipse.core.resources.prefs
-node_modules
-yarn.lock
+
+coverage
