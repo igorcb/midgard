@@ -1,24 +1,25 @@
-# README
+# Sistema financeiro para controle pessoal
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API "midgard" - Tecnologias utilizadas
 
-Things you may want to cover:
+* Ruby 3.0.5
+* Ruby on Rails 7.0.4
+* PostgreSQL 14
+* Rspec
+* Coverage (simple_cov)
+* Rubocop
+* Github Actions
+* Firebase Auth
+  
+## WEB - Tecnologias utilizadas
 
-* Ruby version
+* ReactJs + Typescript
+* Tailwind CSS
+* Phosphor Icons
 
-* System dependencies
+## MOBILE - Tecnologia utilizadas
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Expo
+* ReactNative + Typescript
+* Tailwind CSS
+* Phosphor Icons
