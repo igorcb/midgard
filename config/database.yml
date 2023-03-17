@@ -1,0 +1,26 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  # USE DEFAULT USERNAME AND PASSOWORD POSTGRESQL
+  # OR
+  # EDIT CREDENTIALS FOR CONFIG USERNAME AND PASSOWORD
+  username: <%= Rails.application.credentials.dig(:development, :postgres_username) %>
+  password: <%= Rails.application.credentials.dig(:development, :postgres_password) %>
+  host: localhost
+
+development:
+  <<: *default
+  database: midgard_development
+
+test:
+  <<: *default
+  database: midgard_test
+
+production:
+  <<: *default
+  database: <%= ENV['PGDATABASE'] %>
+  username: <%= ENV['PGUSER'] %>
+  password: <%= ENV['PGPASSWORD'] %>
+  host: <%= ENV['PGHOST'] %>
+  port: <%= ENV['PGPORT'] %>
