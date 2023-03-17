@@ -24,6 +24,9 @@ group :development, :test do
   gem 'rubocop-performance', '1.16.0 ', require: false
   gem 'rubocop-rails', '2.18.0', require: false
   gem 'rubocop-rspec', '2.19.0', require: false
+  gem 'brakeman', '5.4.1'
+  gem 'bundler-audit', '0.9.1'
+  gem 'ruby_audit', '2.2.0'
 end
 
 group :development do
