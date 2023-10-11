@@ -17,6 +17,7 @@
 /config/master.key
 
 # Ignorar outros arquivos e pastas
+config/database.yml
 db/schema.rb
 public/*
 .DS_Store
